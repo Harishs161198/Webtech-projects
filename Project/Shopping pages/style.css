@@ -1,0 +1,76 @@
+@import url('https://fontawesome.com/v5/docs/web/use-with/wordpress/install-manually');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Source Sans Pro',sans-serif;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    background: rgb(240, 239, 243 );
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.container{
+    width: 450px;
+    height: 520px;
+    background-color: #fff;
+    border-radius: 15px ;
+    box-shadow: 4px 4px 30px rgb(0, 0, 0,0.06);
+    padding: 20px;
+    overflow: scroll;
+}
+.container::-webkit-scrollbar{
+    display: none;
+}
+.container form{
+    width: 100%;
+   border-radius: 4px;
+    border: 1px solid  rgb(87, 74, 235);
+    display: flex;
+    flex-direction: row;  
+    align-items: center;
+}
+.container form input{
+border: none;
+outline: none;
+box-shadow: none;
+width: 100%;
+font-size: 16px;
+font-weight: 600px;
+padding:8px 10px ;
+
+
+}
+.container form{
+padding-left: 40px;
+}
+.product-list{
+    padding: 30px 0;
+}
+.product{
+  display: flex;
+  align-items:center ;    
+  cursor: pointer; 
+  padding-bottom: 20px;
+}
+.product img{
+    width: 110px;height: 110px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+.product .p-details h2{
+  font-size: 25px;
+  color:#1d1d1d ;
+}
+.product .p-details h3{
+    font-size: 20px;
+     color:coral ;
+}
+.product .p-details{
+    padding: 30px;
+}

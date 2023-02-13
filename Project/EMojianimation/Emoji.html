@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0px auto;
+            margin-top: 10px;
+            padding: 0px;
+        }
+        #parent{
+            height: 400px;
+            width: 400px;
+            border: 2px solid black;
+            background-color: yellow;
+            border-radius: 50%;
+            }
+        .eye{
+            height: 100px;
+            width: 100px;
+            border-radius: 50%;
+            border: 1px solid black;
+            margin-top: 50px;
+            background-color:black;
+            display: inline-block;
+            margin-left: 60px;
+            animation-name: rotate1;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+            }
+            .eye:hover{
+                height: 150px;
+                width: 140px;
+                border: 2px solid black;
+            }
+            .seye{
+                height: 50px;
+                width: 50px;
+                border: 1px solid black;
+                background-color: white;
+                position: relative;
+                border-radius: 50%;
+                top: 25px;
+                left: 25px;
+            }
+            .seye:hover
+            {
+                height: 80px;
+                width: 80px;
+                border: 2px solid yellow;
+                border-radius: 50%;
+                background-color:red;
+            }
+            @keyframes rotate1{
+                from{
+                    transform: rotate(0deg);
+                }                
+                to{
+                    transform: rotate(360deg);
+                }
+            }
+            .mouth{
+                height: 140px;
+                width: 180px;
+                border: 1px solid black;
+                position: relative;
+                border-bottom-left-radius: 118px;
+                border-bottom-right-radius: 118px;
+                top: 50px;
+                background-color: red;                
+            }
+            .mouth:hover{
+                height: 250px;
+                width: 180px;
+                border: 2px solid black;
+            }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div class="eye">
+            <div class="seye"></div>
+        </div>
+        <div class="eye">
+            <div class="seye"></div>
+        </div>  
+        <div class="mouth"></div>     
+    </div>
+</body>
+</html>

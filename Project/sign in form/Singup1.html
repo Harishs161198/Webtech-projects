@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <style>
+        #parent{
+            height: 700px;
+            width: 550px;
+            border: 1px solid;
+            border-radius: 20px;
+            background-color: green;
+            margin: 0 auto;
+            margin-top: 20px;
+             }
+        #child{
+            height: 500px;
+            width: 400px;
+            border: 1px solid;
+            border-radius: 20px;
+            background-color: white;
+            margin: 0 auto;
+            margin-top: 100px;
+        }
+        .h1{ 
+           font-size: 30px;
+          text-align: center;
+          padding-top: 20px;
+        }
+        button{
+            height: 50px;
+          width: 100px;
+         background-color: green;
+          box-shadow:5px 5px 5px black;
+          border: none;
+         padding: 10px;
+         margin-left: 100px;
+          }
+        #i{ border-top: none;
+            border-left: none;
+            height: 30px;
+            width: 300px;
+          margin-left: 10px;
+          box-shadow: 5px 5px 5px;
+       }
+       h3{
+        margin-left: 100px;
+        color: aliceblue;
+       }
+       h4{
+        width: 300px;
+        border-bottom: 1px solid;
+       }
+       #a11{
+        margin-left:45px;
+       }
+    ::placeholder{
+        height: 50px;
+    }
+    #i1{
+        margin-left: 20px;
+    }
+    </style>
+</head>
+<body>
+    <div id="parent">
+        <div id="child">
+            <div class="h1"><b>Sign Up</b></div><br><br>
+            <div id="a11"><h4>Please fill in this form to create an account!</h4></div>
+            <i id="i1" class="fa fa-user"></i>
+            <input id="i"type="text" placeholder="USERNAME"><br><br>
+            <i id="i1" class="fa fa-envelope"></i>
+             <input id="i"type="text" placeholder="E-M@IL"><br> <br>
+             <i id="i1"class="fa fa fa-lock"></i>
+              <input id="i"type="PaSWORD" name="" id="" placeholder="PASSWORD"> <br><br>
+              <i id="i1"class="fa fa-check"></i>
+             <input  id="i"type="PASSWORD" placeholder="CONFIRM PASSWORD"><br>   
+             <h5 style="margin-left:30px;"><input type="checkbox">I accept the <a href="" style="color:red;"> Term of Use </a>& <a href="" style="color:red;"> Privacy Policy</a></h5>
+            <button>Sign Up</button>  
+        </div>
+        <h3>Already have an account? <a href="" style="color:white;">Login here</a> </h3>
+    </div>
+</body>
+</html>

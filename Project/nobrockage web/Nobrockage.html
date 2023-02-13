@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project15</title>
+    <link rel="stylesheet" href="./font-awesome-4.7.0/font-awesome-4.7.0/css/font-awesome.css">
+    <style>
+        #mainForm{
+            border: 1px solid;
+            height: 500px;
+            width: 1350px;
+            /* margin-left: 200px; */
+            border: none;
+        }
+        #div1{
+            border: 1px solid;
+            height: 55px;
+            width: 1349px;
+            display: flex;
+            box-shadow: 0px 3px 3px 0px;
+        }
+        .box1{
+            margin-left: 10px;
+            margin-top: 10px;
+            /* border: 1px solid; */
+            height: 35px;
+            width: 150px;
+        }
+        .img1{
+            height: 30px;
+            width: 30px;
+        }
+        label{
+            font-size: 20px;
+        }
+        .button1{
+            margin-left: 500px;
+            margin-top: 10px;
+            border: 1px solid;
+            height: 30px;
+            width: 100px;
+            border-radius: 3px;
+            border-radius: 3px;
+            border-color: darkgrey; 
+            background-color: gold;
+            color:rgb(19, 240, 115) ;
+          box-shadow: 7px 7px 5px rgb(110, 29, 29);
+        }
+        .button2{
+            margin-left: 10px;
+            margin-top: 10px;
+            border: 1px solid;
+            height: 30px;
+            width: 110px;
+            border-radius: 3px;
+            background-color: gold;
+            color:rgb(19, 240, 115) ;
+            border-color: darkgrey;
+            box-shadow: 7px 7px 5px rgb(110, 29, 29);
+        }
+        .button3{
+            margin-left: 10px;
+            margin-top: 10px;
+            border: 1px solid;
+            height: 30px;
+            width: 150px;
+            border-radius: 4px;
+            background-color: black;
+            color: #fff;
+        }
+        .button4{
+            margin-left: 10px;
+            margin-top: 10px;
+            border: 1px solid;
+            height: 30px;
+            width: 90px;
+            color: rgb(19, 240, 115);
+            border-radius: 4px;
+            border-color: #fff;
+            border-right-color: darkgray;
+            background-color: gold;
+        }
+        .button6{
+            margin-left: 10px;
+            margin-top: 10px;
+            border: 1px solid;
+            height: 30px;
+            width: 90px;
+            border-radius: 4px;
+            border: none;
+            color: black;
+            background-color: red;
+            /* background: none; */
+        }
+        #div2{
+            border: 1px solid rgba(240, 240, 240, 0.274);
+            height: 320px;
+            width: 1349px;
+            background-color: rgba(240, 240, 240, 0.274);
+        }
+        .box2{
+            border: 1px solid;
+            height: 120px;
+            width: 1348px;
+            margin-top: 50px;
+            border: none;
+        }
+        .line{
+            font-size: 35px;
+            margin-left: 330px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif, Courier, monospace;
+            color: gray;
+        }
+        .paybutton{
+            margin-left: 530px;
+            width: 250px;
+            height: 35px;
+            font-size: medium;
+            background-color: bisque;
+            border-radius: 5px;
+            border: bisque;
+        }
+        .img2{
+            height: 20px;
+            width: 20px;
+        }
+        .box3{
+            display: flex;
+            border-radius: 0px;
+        }
+        .button7{
+            margin-left: 430px;
+            border: 1px solid;
+            height: 35px;
+            width: 165px;
+            border-color: darkgray;
+        }
+        .button8{
+            border: 1px solid;
+            height: 35px;
+            width: 90px;
+            border-color: darkgray;
+            background: transparent;
+            color: red;
+            border-bottom: 4px solid red;
+        }
+        .button9{
+            border: 1px solid;
+            height: 35px;
+            width: 165px;
+            border-color: darkgray;
+        }
+        .button10{
+            margin-left: 220px;
+            border: 1px solid;
+            height: 40px;
+            width: 130px;
+            border-top-left-radius: 3px;
+            border-color: darkgray;
+            color: darkgray;
+        }
+        .box4{
+            display: flex;
+        }
+        #srch{
+            width: 600px;
+        }
+        .button11{
+            border: 1px solid;
+            height: 40px;
+            width: 140px;
+            border: none;
+            background-color: red;
+            color: #fff;
+            border-top-right-radius: 3px;
+        }
+        .box5{
+            margin-left: 220px;
+            border: 1px solid;
+            height: 50px;
+            width: 868px;
+            border-bottom-left-radius: 3px;
+            border-bottom-right-radius: 3px;
+            border-color: darkgray;
+            color: darkgray;
+        }
+        .radios{
+            margin-top: 15px;
+            font-family: Cambria, Cochin, Georgia, Times, ;
+        }
+        .button12{
+            border: 1px solid;
+            height: 30px;
+            width: 165px;
+            color: rgb(190,33,33);
+            border-color: rgb(129, 51, 51);
+        }
+        .button13{
+            border: 1px solid;
+            height: 30px;
+            width: 165px;
+            color:rgb(190, 33, 33);
+            border-color: rgb(129,51,51);
+        }
+        h4{
+            margin-top: 10px;
+            font-size: small;
+        }
+        .lastline{
+            margin-left: 490px;
+            font-size: medium;
+        }
+        .button14{
+            margin-left: 535px;
+            margin-top: 10px;
+            border: 1px solid;
+            height: 35px;
+            width: 190px;
+            border-radius: 4px;
+            background-color: green;
+            color: #fff;
+        }
+        option{
+            background-color: blue;
+        color: white;}
+    </style>
+</head>
+<body>
+    <form action="" id="mainForm">
+        <div id="div1">
+            <div class="box1">
+                <img src="./%12.png" alt=""class="img1">
+                <label for="">NoBroker</label>
+            </div>
+            <button type="submit"class="button1"><i class="fa fa-credit-card" aria-hidden="true"></i>My Bookings</button>
+            <button type="submit"class="button2"><i class="fa fa-credit-card" aria-hidden="true"></i> | Pay Rent</button>
+            <button type="submit"class="button3">For Property owners</button>
+            <button type="submit"class="button4">Sign Up</button>
+            <button type="submit"class="button4"href="#">Log In</button>
+            <button type="submit"class="button6"><i class="fa fa-bars" aria-hidden="true"></i><b>Menu</b></button>
+        </div>
+        <div id="div2">
+            <div class="box2">
+                <label for="" class="line">World's Largest NoBrokerage Property Site</label><br><br>
+                <button type="submit"class="paybutton">
+                    <img src="./log.png" alt=""class="img2">
+                    <a href="#" style="color: rgb(65, 225, 26);">Pay rent</a> with <a href="" style="color:rgb(65, 225, 26) ;"> Credit Card!</a>
+                </button>
+            </div>
+            <div class="box3">
+                <button type="submit"class="button7">Buy</button>
+                <button type="submit"class="button8">Rent</button>
+                <button type="submit"class="button9">Commercial</button><br>
+            </div>
+            <div class="box4">
+                <select name="Pune" class="button10">
+                    <option value="Pune">Pune</option>
+                    <option value="Mumbai">Mumbai</option>
+                    <option value="Pune">Banglore</option>
+                    <option value="Mumbai">Hydrabadh</option>
+                    <option value="Pune">Baramati</option>
+                    <option value="Mumbai">Indapur</option>
+                </select>
+                <input type="search" name="" id="srch"placeholder="Search upto localities or landmark">
+                <button type="submit"class="button11"><i class="fa fa-search" aria-hidden="true"></i>Search</button>
+            </div>
+            <div class="box5">
+                <div class="radios">
+                    <!-- <input type="radio" name="Full House"id="">Full House
+                    <input type="radio" name="PG/Hostel" id="">PG/Hostel
+                    <input type="radio" name="Flatmates" id="">Flatmates -->
+                    <input type="radio" name="s" id="">
+                    <label for="">Full House</label>
+                    <input type="radio" name="s" id="">
+                    <label for="">Pg hostel</label>
+                    <input type="radio" name="s" id="">
+                    <label for="">Flatmates</label>
+                    <select name="Apartment" class="button12">
+                        <option value="">Apartment Type</option>
+                        <option value="1RK">1RK</option>
+                        <option value="1BHK">1BHK</option>
+                        <option value="2BHK">2BHK</option>
+                        <option value="3BHK">3BHK</option>
+                    </select>
+                    <select name="Availability" class="button13">
+                        <option value="Availability">Availability</option>
+                        <option value="Imidiate">Immidiate</option>
+                        <option value="Within 15 Days">Within 15 Days</option>
+                        <option value="Within 30 Days">Within 30 Days</option>
+                        <option value="After 30  Days">After 30  Days</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+        <div class="div4"><br>
+            <label for=""class="lastline">______* Are you a Property Owner? *______</label><br>
+            <button type="submit" class="button14">Post Free property ad</button>
+        </div>
+    </form>
+</body>
+</html>
+<!-- <i class="fa fa-credit-card" aria-hidden="true"></i>
+     <i class="fa fa-bars" aria-hidden="true"></i>
+    <i class="fa fa-search" aria-hidden="true"></i>
+ -->

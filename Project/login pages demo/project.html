@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 9</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+    * {
+            margin:0;
+            padding:0;
+            box-sizing: border-box;
+        }
+        body{
+            background:linear-gradient(135deg,rgb(194, 20, 229,0.9),rgb(178, 7, 172,0.9)),url(../Image/pexels-karolina-grabowska-4195325.jpg) no-repeat center /cover;
+        }
+        .parent {
+            min-width: 800px;
+            max-width: 50%;
+            /* height: 300px; */
+            /* height: 60vh; */
+            box-shadow: 20px 20px 100px;
+            margin: 10% auto;
+            display: flex;
+
+        }
+        .bgImage{
+            width: 100%;     
+            padding: 50px 20px;       
+            height: 100%;
+            /* background-color: greenyellow; */
+            background:linear-gradient(135deg,rgba(40, 32, 122, 0.5),rgba(111, 106, 175, 0.5)),url(./nature2.jpg) no-repeat center /cover;
+           
+        }
+
+        .child {
+            min-width: 50%;
+            width: 50%;            
+            border: 1px solid black;
+        }
+
+        .childImformation {
+           height: 500px;
+
+            background-color: white;
+            padding: 50px 50px 100px 50px;
+            display: flex;
+            flex-direction: column;
+            align-content: space-between;
+        }
+
+        .textLogin {
+            /* border: 1px solid; */
+            font-weight: bolder;
+            font-size: 28px;
+        }
+
+        .textMassage {
+            /* border: 1px solid orangered; */
+            padding: 10px 0;
+            font-size: 14px;
+            color: gray;
+        }
+
+        .inputData input {
+            width: 100%;
+            border: none;
+            outline: none;
+            border-bottom: 2px solid;
+            font-size: 15px;
+        }
+        .inputData{
+            margin: 10px 0;
+        }
+
+        .inputData-check-forget {
+            padding: 15px 0;
+            display: flex;
+            justify-content: space-between;
+            width: 100%;
+        }
+        
+        .checkBox {
+            /* border: 1px solid cyan; */
+            position: relative;
+            right: 10px;
+            font-size: 14px;
+            border: none;
+            /* background-color: red; */
+        }.checkBox input {
+            outline: none;
+            accent-color: rgb(30, 198, 30);
+        }
+                
+        .forgetPassword  {
+            /* border: 1px solid cyan; */
+            font-size: 14px;
+            
+        }
+        .forgetPassword a{
+            color: gray; 
+            text-decoration: none;
+        }
+        .checkBox input{
+            width: 30px;
+            background-color: blueviolet;
+            font-size: 56px;
+        }
+        .button{            
+            /* border: 1px solid; */
+            margin: 15px 0;
+            padding: 10px 0;
+            display: flex;
+            justify-content: end;
+            
+        }
+        .button input{
+            /* position: relative;
+            left: 70%; */
+            padding: 5px 0;
+            width: 35%;
+            border: none;
+            font-size: 15px;
+            color: rgb(131, 32, 32);
+            border-radius: 20px;
+            background-color: rgba(77, 167, 29, 0.646);
+            box-shadow:1px 5px 5px rgb(201, 190, 190);
+        }
+      .helloWorld{
+            /* margin-top: 20%; */
+            color: rgb(69, 22, 240);
+            font-size: 70px;
+            font-weight: bolder;
+        }
+        .msg{
+            padding: 15px 0;
+            font-size: 12px;
+            color: rgb(214, 208, 227);
+        }
+        .mediaText{
+            font-size: 18px;
+            color: rgb(226, 219, 243);
+        }
+        .socialMedia{
+            padding-top: 10px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .socialMedia .twitter a {
+            color: white;
+            font-size: 15px;
+            border-radius: 50px;
+            padding: 10px 20px;
+            background-color: rgb(71, 183, 239);
+        }
+        .socialMedia .facebook a {
+            color: antiquewhite;
+            background-color:blue ;
+            font-size: 15px;
+            border-radius: 50px;
+            padding: 10px 30px;
+        }
+</style>
+</head>
+
+<body>
+
+    <div class="parent">
+        <div class="child">
+                       <div class="bgImage">
+                               <div class="helloWorld">
+                               Hello <br>World.
+                                </div><br><br>
+                              <div class="msg">
+                                  Epsumm factorial non deposit quid pro quo hic escorol.Olypian quarrels et gorilla congolium.
+                               </div><br><br>
+                             <div class="mediaText">
+                                 Login with social media
+                             </div><br><br><br>
+                             <div class="socialMedia">
+                                  <div class="facebook">
+                                     <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                                 </div>
+                                 <div class="twitter">
+                                  <a href="#"><i class="fa fa-twitter" aria-hidden="true"> Login With Twitter</i></a>
+                                 </div>
+                              </div>
+                         </div>
+           </div>
+        <div class="child">
+            <div class="childImformation">
+                <div class="textLogin"> Login</div>
+                <div class="textMassage">Don't have an account? Create your account, it takes less than a minute</div>
+                <form action="">
+                    <div class="inputData">
+                        <input type="text" placeholder="Username">
+                    </div>
+                    <div class="inputData">
+                        <input type="password" placeholder="Password">
+                    </div>
+
+                    <div class="inputData-check-forget">
+                        <div class="checkBox">
+                            <input type="checkbox" name="" id="" required> Remember Me
+                        </div>
+                        <div class="forgetPassword">
+                            <a href="#">Forget Password?</a>
+                        </div>
+                    </div>
+                    <div class="button">
+                        <input type="submit" value="Login">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

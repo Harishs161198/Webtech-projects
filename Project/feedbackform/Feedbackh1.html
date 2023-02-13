@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>project14</title>
+    <style>
+        body{
+             background-image: url(./img1.jpg);
+             background-repeat:no-repeat;
+            background-size: cover;
+        }
+        h1{
+         color: #ffffff; 
+         margin-left: 500px;
+        }
+        #parent{
+           height: 800px;
+           width: 900px;
+            border: 1px solid whitesmoke;
+            background-color:black;
+           margin-left:10px;
+           opacity:0.9;
+        }
+         label{
+            color: #ffffff;
+            margin-top:20px;
+            width: 500px;
+        }
+        span{
+            width:300px;
+            height:40px;
+        }
+        #parent > div{
+            padding: 14px 16px;
+            width:350px; 
+            display:flex;
+            flex-direction:row;
+            flex-wrap:nowrap;
+            align-items:center;
+        }
+        #parent > div:nth-child(1),
+        #parent > div:nth-child(4)
+        {
+         width:770px;
+        }
+        input, select
+        {
+            border: 1px solid #ffffff;
+            background-color: transparent;
+            height:30px;
+            width:200px;
+        }
+        input::placeholder, textarea::placeholder
+        {
+        color:#ffffff;
+        }
+       
+         #parent div:nth-child(4) > div
+        {
+            border: 1px solid #ffffff;
+        }
+        textarea
+        {
+            background-color: transparent;
+            color:#ffffff;
+        }
+        #button input
+        {
+            color: #ffffff;
+            background-color: red;
+            margin: 4%;
+        }
+        #button
+        {
+            margin-left:8%;
+            margin-top:7%;
+        }
+        #button span
+        {
+        margin:4%;
+        }
+    </style>
+</head>
+<body>
+   <h1>FEEDBACK FORM</h1>
+  <form> <div id="parent">
+  
+          <div style="">
+              <span style="width:300px"><label for="">Customer Name:</label></span>
+              <span> <input type="text" name="" id="" placeholder="Customer Name"></span>
+           
+              <span style="margin-left: 10%;"><label for="">Products You Like:</label> </span>
+              <span>
+                  <select name="" id="">
+                      <option value="" selected disabled>Products</option>
+                      <option value="">Books</option>
+                      <option value="">Beauty Products</option>
+                      <option value="">Kitchen items</option>
+                      <option value="">Cloths</option>
+                      <option value="">Jewelry</option>
+                  </select>
+              </span>
+          </div>
+          <div>
+              <span><label for="">Email Address:</label></span> 
+              <span><input type="email" name="" id="" placeholder="mail@example.com"></span>
+          </div>
+  
+           <div>
+              <span><label for="">Organization:</label></span>
+              <span><input type="text" name="" id="" placeholder="Organization"></span>
+          </div>
+               <div>
+                  <span><label for="">Ratings for company:</label></span>
+                 <span>
+                    <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span><label for="">Very High</label></span>
+                     </div>
+                   <div>
+                      <span><input type="radio" name="" id=""></span>
+                      <span><label for="">High</label></span>
+                  </div>
+                  <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span><label for="">Medium</label></span>
+                  </div>
+                  <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span><label for="">Very Low</label></span>
+                  </div>
+              </span>
+              <span style="width:100px"><label for="">Rating for support:</label></span>
+                <span>
+                  <div>
+                      <span><input type="radio" name="" id=""> </span>
+                      <span><label for="">Very Good</label></span>
+                  </div>
+                  <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span><label for="">Good</label></span>
+                  </div>
+                  <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span><label for="">Average</label></span>
+                  </div>
+                  <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span> <label for="">Fair</label></span>
+                 </div>
+                  <div>
+                      <span><input type="radio" name="" id=""></span> 
+                      <span><label for="">Poor</label></span>
+                  </div>
+              </span>
+           </div>
+           <div style="margin-top: 5%;">
+              <span><label for="">Customer Enquiry:</label></span>
+              <span style="margin-left:25%"><textarea rows="10" cols="80" placeholder="Write.."></textarea></span>
+          </div>
+  
+          <div id="button">
+              <span><input type="submit" name="submit" value="Submit"></span>
+              <span><input type="reset" name="reset" value="RESET"></span>
+          </div>
+       </div></form>
+</body>
+</html>

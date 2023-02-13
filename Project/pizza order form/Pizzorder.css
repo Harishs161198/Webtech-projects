@@ -1,0 +1,31 @@
+#parent{
+    height: 630px;
+    width: 300px;
+    border:1px solid ;
+    border-radius: 15px ;
+    margin-left: 400px;
+    background-color: aqua;
+    box-shadow: 15px 15px 15px;
+     align-content: center; 
+}
+h1{
+    margin: 0 auto;
+    margin-top: 0 auto;
+}
+img{
+    margin-left: 12px;
+    height: 85px;
+    width: 85px;
+}
+#f1{margin-left: 1px;
+margin-top: 5px;}
+#l1{margin-left:2px;
+    margin-top: 5px;}
+#p1{margin-left:25px;
+    margin-top: 5px;}
+    button{margin-left: 55px;
+        box-shadow:5px 5px 5px rgb(126, 6, 239);
+        border-radius: 25px;
+        border:green;
+        padding: 17px;
+    }
